@@ -1,0 +1,136 @@
+
+
+/* General Styles */
+.navbar {
+    background-color: #1C1C3B;
+    padding: 1rem;
+    border-bottom: 2px solid #48E5E4;
+    font-family: 'Inter', Arial, sans-serif;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Brand Styles */
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    height: 2rem;
+    margin-right: 0.5rem;
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  
+  /* Menu Centered */
+  .navbar-menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Links Styles */
+  .nav-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #48E5E4;
+  }
+  
+  .nav-link.active {
+    color: #48E5E4;
+  }
+  
+  /* Search Styles (aligned to the right) */
+  .navbar-search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 1rem;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #FFFFFF;
+  }
+  
+  .search-input {
+    padding: 0.5rem 1rem 0.5rem 2.5rem;
+    border: 2px solid #1c1c3b;
+    border-radius: 10px;
+    background-color: #bfbfbf;
+    color: #000000;
+    font-size: 1rem;
+  }
+  
+  .search-input::placeholder {
+    color: #6B7280;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #48E5E4;
+  }
+  
+  /* Right section styles (Cart and Login) */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  /* Cart Icon */
+  .cart-icon .icon {
+    width: 24px;
+    height: 24px;
+    color: #FFFFFF;
+    transition: color 0.3s;
+  }
+  
+  .cart-icon:hover .icon {
+    color: #48E5E4;
+  }
+  
+  /* Login Button */
+  .login-button {
+    background-color: #48E5E4;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #FFFFFF;
+    color: #1C1C3B;
+  }
+  

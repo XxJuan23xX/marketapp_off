@@ -1,0 +1,12 @@
+/* Resetear márgenes y padding globales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Asegurarse de que el body no tenga margen */
+body {
+  margin: 0;
+  padding: 0;
+}
